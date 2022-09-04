@@ -1,0 +1,18 @@
+2022.09.01 00:45:08 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2h/7207377ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 00:45:09 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6s/6044139650ns] on relative clock which is above the warn threshold of [5000ms]
+2022.09.01 00:45:11 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 6.4gb[2.7%], all indices on this node will be marked read-only
+2022.09.01 02:45:28 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2h/7205644ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 02:45:28 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6.4s/6478183614ns] on relative clock which is above the warn threshold of [5000ms]
+2022.09.01 02:45:29 WARN  es[][o.e.t.ThreadPool] absolute clock went backwards by [14ms/14ms] while timer thread was sleeping
+2022.09.01 04:45:41 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2h/7203363ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 04:45:42 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 6.4gb[2.7%], all indices on this node will be marked read-only
+2022.09.01 06:45:59 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2h/7209627ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 06:46:00 WARN  es[][o.e.t.ThreadPool] timer thread slept for [7.7s/7743261388ns] on relative clock which is above the warn threshold of [5000ms]
+2022.09.01 08:46:12 WARN  es[][o.e.t.ThreadPool] timer thread slept for [2h/7203284ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 08:46:13 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 6.4gb[2.7%], all indices on this node will be marked read-only
+2022.09.01 08:46:43 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.4gb[3.6%], all indices on this node will be marked read-only
+2022.09.01 08:53:26 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6.6m/397214ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 08:53:45 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 6.3gb[2.7%], all indices on this node will be marked read-only
+2022.09.01 21:10:56 WARN  es[][o.e.t.ThreadPool] timer thread slept for [12.2h/44225214ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 22:18:21 WARN  es[][o.e.t.ThreadPool] timer thread slept for [1.1h/4038693ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.01 22:18:28 WARN  es[][o.e.t.ThreadPool] absolute clock went backwards by [1.2s/1296ms] while timer thread was sleeping

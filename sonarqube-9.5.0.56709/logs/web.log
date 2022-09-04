@@ -1,0 +1,37 @@
+2022.09.04 17:30:58 INFO  web[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2022.09.04 17:30:58 ERROR web[][o.s.s.m.ElasticSearchMetricTask] Failed to query ES status
+org.sonar.server.es.ElasticsearchException: Fail to execute es request
+	at org.sonar.server.es.EsClient.execute(EsClient.java:313)
+	at org.sonar.server.es.EsClient.execute(EsClient.java:305)
+	at org.sonar.server.es.EsClient.nodesStats(EsClient.java:216)
+	at org.sonar.server.monitoring.ElasticSearchMetricTask.updateFileSystemMetrics(ElasticSearchMetricTask.java:78)
+	at org.sonar.server.monitoring.ElasticSearchMetricTask.run(ElasticSearchMetricTask.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.ConnectionClosedException: Connection is closed
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:908)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:299)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:287)
+	at org.sonar.server.es.EsClient.lambda$nodesStats$29(EsClient.java:218)
+	at org.sonar.server.es.EsClient.execute(EsClient.java:311)
+	... 10 common frames omitted
+Caused by: org.apache.http.ConnectionClosedException: Connection is closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:356)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:261)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:81)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:39)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:114)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:162)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:337)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:315)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:276)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+	... 1 common frames omitted
+2022.09.04 17:30:59 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2022.09.04 17:30:59 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2022.09.04 17:30:59 INFO  web[][o.s.s.app.WebServer] Web Server stopped

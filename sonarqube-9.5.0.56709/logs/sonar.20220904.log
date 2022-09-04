@@ -1,0 +1,10 @@
+TERM trapped.  Shutting down.
+Wrapper Manager: Unable to unregister shutdown hook: java.lang.IllegalStateException: Shutdown in progress
+2022.09.04 17:30:58 INFO  app[][o.s.a.SchedulerImpl] Stopping SonarQube
+2022.09.04 17:30:58 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ElasticSearch]: 143
+2022.09.04 17:30:58 INFO  app[][o.s.a.SchedulerImpl] Process[ElasticSearch] is stopped
+2022.09.04 17:30:59 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [Compute Engine]: 143
+2022.09.04 17:30:59 INFO  app[][o.s.a.SchedulerImpl] Process[Compute Engine] is stopped
+2022.09.04 17:31:01 INFO  app[][o.s.a.SchedulerImpl] Process[Web Server] is stopped
+2022.09.04 17:31:01 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [Web Server]: 143
+2022.09.04 17:31:01 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped

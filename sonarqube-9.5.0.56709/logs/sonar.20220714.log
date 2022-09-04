@@ -1,0 +1,38 @@
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library because none of the
+          following files:
+            libwrapper-macosx-x86-64.dylib
+            libwrapper-macosx-universal-64.dylib
+            libwrapper.dylib
+          could be located on the following java.library.path:
+            /Users/macamara/Downloads/sonarqube-9.5.0.56709/bin/macosx-universal-64/./lib
+          Please see the documentation for the wrapper.java.library.path
+          configuration property.
+          System signals will not be handled correctly.
+
+2022.07.14 19:19:49 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /Users/macamara/Downloads/sonarqube-9.5.0.56709/temp
+2022.07.14 19:19:49 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:65255]
+2022.07.14 19:19:49 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[ELASTICSEARCH] from [/Users/macamara/Downloads/sonarqube-9.5.0.56709/elasticsearch]: /Users/macamara/Downloads/sonarqube-9.5.0.56709/elasticsearch/bin/elasticsearch
+2022.07.14 19:19:49 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2022.07.14 19:19:56 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.07.14 19:19:56 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[WEB_SERVER] from [/Users/macamara/Downloads/sonarqube-9.5.0.56709]: /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/Users/macamara/Downloads/sonarqube-9.5.0.56709/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.5.0.56709.jar:/Users/macamara/Downloads/sonarqube-9.5.0.56709/lib/jdbc/h2/h2-2.1.210.jar org.sonar.server.app.WebServer /Users/macamara/Downloads/sonarqube-9.5.0.56709/temp/sq-process3296081034741798524properties
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by org.sonar.process.PluginSecurityManager (file:/Users/macamara/Downloads/sonarqube-9.5.0.56709/lib/sonar-application-9.5.0.56709.jar)
+WARNING: Please consider reporting this to the maintainers of org.sonar.process.PluginSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+2022.07.14 19:20:40 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2022.07.14 19:20:40 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[COMPUTE_ENGINE] from [/Users/macamara/Downloads/sonarqube-9.5.0.56709]: /Library/Java/JavaVirtualMachines/jdk-17.0.1.jdk/Contents/Home/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/Users/macamara/Downloads/sonarqube-9.5.0.56709/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Dcom.redhat.fips=false -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.5.0.56709.jar:/Users/macamara/Downloads/sonarqube-9.5.0.56709/lib/jdbc/h2/h2-2.1.210.jar org.sonar.ce.app.CeServer /Users/macamara/Downloads/sonarqube-9.5.0.56709/temp/sq-process4959601791523184972properties
+WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by org.sonar.process.PluginSecurityManager (file:/Users/macamara/Downloads/sonarqube-9.5.0.56709/lib/sonar-application-9.5.0.56709.jar)
+WARNING: Please consider reporting this to the maintainers of org.sonar.process.PluginSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+2022.07.14 19:20:41 WARN  app[][startup] ####################################################################################################################
+2022.07.14 19:20:41 WARN  app[][startup] Default Administrator credentials are still being used. Make sure to change the password or deactivate the account.
+2022.07.14 19:20:41 WARN  app[][startup] ####################################################################################################################
+2022.07.14 19:20:43 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2022.07.14 19:20:43 INFO  app[][o.s.a.SchedulerImpl] SonarQube is operational

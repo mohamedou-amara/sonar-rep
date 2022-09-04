@@ -1,0 +1,71 @@
+2022.09.04 00:14:10 WARN  es[][o.e.t.ThreadPool] timer thread slept for [1.9h/7197898ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.04 00:14:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.8gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 02:14:18 WARN  es[][o.e.t.ThreadPool] timer thread slept for [1.9h/7198091ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.04 02:34:53 WARN  es[][o.e.t.ThreadPool] timer thread slept for [20.4m/1224279ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.04 02:35:09 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 02:35:39 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 02:36:09 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 02:38:11 WARN  es[][o.e.t.ThreadPool] timer thread slept for [1.9m/117488ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.04 02:38:35 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 17:23:56 WARN  es[][o.e.t.ThreadPool] timer thread slept for [14.7h/53117301ms] on absolute clock which is above the warn threshold of [5000ms]
+2022.09.04 17:24:20 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 17:24:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 17:25:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 8.7gb[3.7%], all indices on this node will be marked read-only
+2022.09.04 17:25:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:26:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:26:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:27:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:27:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:28:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:28:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:29:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.7gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:29:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.8gb[4.1%], all indices on this node will be marked read-only
+2022.09.04 17:30:21 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 9.9gb[4.2%], all indices on this node will be marked read-only
+2022.09.04 17:30:51 WARN  es[][o.e.c.r.a.DiskThresholdMonitor] flood stage disk watermark [95%] exceeded on [ZnD9i9X7Q5a7M2nqwTz6Fg][sonarqube][/Users/macamara/Downloads/sonarqube-9.5.0.56709/data/es7/nodes/0] free: 10.1gb[4.3%], all indices on this node will be marked read-only
+2022.09.04 17:30:58 INFO  es[][o.e.n.Node] stopping ...
+2022.09.04 17:30:58 WARN  es[][o.e.t.TransportService] Transport response handler not found of id [96790]
+2022.09.04 17:30:58 WARN  es[][o.e.t.TaskCancellationService] cannot send ban for tasks with the parent [ZnD9i9X7Q5a7M2nqwTz6Fg:202806] on connection [local node connection]: [sonarqube][127.0.0.1:49602][internal:admin/tasks/ban]
+2022.09.04 17:30:58 WARN  es[][o.e.t.TaskCancellationService] failed to remove ban for tasks with the parent [ZnD9i9X7Q5a7M2nqwTz6Fg:202806] on connection [local node connection]: [sonarqube][127.0.0.1:49602][internal:admin/tasks/ban]
+2022.09.04 17:30:58 WARN  es[][o.e.t.TransportService] Transport response handler not found of id [96791]
+2022.09.04 17:30:58 ERROR es[][i.n.u.c.D.rejectedExecution] Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:923) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:350) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:343) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:825) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:815) ~[netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:842) [netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:499) [netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616) [netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609) [netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:109) [netty-common-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.DefaultChannelPromise.setFailure(DefaultChannelPromise.java:89) [netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.safeExecute(AbstractChannelHandlerContext.java:998) [netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:796) [netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) [netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1020) [netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:311) [netty-transport-4.1.66.Final.jar:4.1.66.Final]
+	at org.elasticsearch.http.netty4.Netty4HttpChannel.sendResponse(Netty4HttpChannel.java:34) [transport-netty4-client-7.17.1.jar:7.17.1]
+	at org.elasticsearch.http.DefaultRestChannel.sendResponse(DefaultRestChannel.java:134) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.rest.RestController$ResourceHandlingHttpChannel.sendResponse(RestController.java:588) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.rest.action.RestActionListener.onFailure(RestActionListener.java:55) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.rest.action.RestCancellableNodeClient$1.onFailure(RestCancellableNodeClient.java:96) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.action.support.TransportAction$1.onFailure(TransportAction.java:97) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.tasks.CancellableTask.notifyIfCancelled(CancellableTask.java:96) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.finishHim(TransportNodesAction.java:290) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:285) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$100(TransportNodesAction.java:210) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$1.handleException(TransportNodesAction.java:264) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.transport.TransportService$4.handleException(TransportService.java:853) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1481) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.transport.TransportService.doStop(TransportService.java:345) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.stop(AbstractLifecycleComponent.java:68) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.node.Node.stop(Node.java:1317) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.node.Node.close(Node.java:1336) [elasticsearch-7.17.1.jar:7.17.1]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:74) [elasticsearch-core-7.17.1.jar:7.17.1]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:116) [elasticsearch-core-7.17.1.jar:7.17.1]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:66) [elasticsearch-core-7.17.1.jar:7.17.1]
+	at org.elasticsearch.bootstrap.Bootstrap$4.run(Bootstrap.java:198) [elasticsearch-7.17.1.jar:7.17.1]
+2022.09.04 17:30:58 INFO  es[][o.e.n.Node] stopped
+2022.09.04 17:30:58 INFO  es[][o.e.n.Node] closing ...
+2022.09.04 17:30:58 INFO  es[][o.e.n.Node] closed
